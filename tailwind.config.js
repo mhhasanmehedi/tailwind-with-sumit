@@ -3,7 +3,13 @@ module.exports = {
   purge: [],
   darkMode: "media", // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        myColor: {
+          300: "#d5d5d5",
+        },
+      },
+    },
   },
   variants: {
     extend: {},
